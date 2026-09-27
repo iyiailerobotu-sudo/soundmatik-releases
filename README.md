@@ -30,4 +30,20 @@ These two links always serve the current version. Each version is also kept as
 
 The panel's **Check for updates** link (bottom of the panel) finds new versions here.
 
+## Third-party software
+
+The installers include these open-source programs, unmodified. soundMatik runs
+them as separate programs; it does not link to them.
+
+| Program | License | Source |
+|---|---|---|
+| [yt-dlp](https://github.com/yt-dlp/yt-dlp) | The Unlicense (public domain) | https://github.com/yt-dlp/yt-dlp |
+| [FFmpeg](https://ffmpeg.org) (`ffmpeg`, `ffprobe`) | GNU GPL v3 (GPL build, includes x264/x265) | https://ffmpeg.org/download.html - macOS builds and their build sources: https://ffmpeg.martin-riedl.de - Windows builds and their build scripts: https://github.com/yt-dlp/FFmpeg-Builds |
+| [Deno](https://deno.com) | MIT | https://github.com/denoland/deno |
+
+FFmpeg is licensed under the GNU General Public License version 3
+(https://www.gnu.org/licenses/gpl-3.0.html). You may request the exact
+corresponding FFmpeg source for any soundMatik release by opening an issue in
+this repository; it will be provided for at least three years after that release.
+
 by Sevki Bugra Ozbek - catheadai.com
